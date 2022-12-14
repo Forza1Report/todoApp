@@ -1,0 +1,63 @@
+#project {
+	min-height: 100vh;
+	background-image: linear-gradient(to bottom, #3494e6, #ec6ead);
+	text-align: center;
+	padding-bottom: 20px;
+	h1 {
+		padding-top: 20px;
+		color: white;
+		text-align: center;
+		font-family: "Lemonada", cursive !important;
+	}
+	form,
+	ul {
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+	form {
+		margin: 50px auto;
+		input {
+			padding: 10px;
+			font-size: 17px;
+			border: 1px solid #ddd;
+			border-radius: 6px 0px 0px 6px;
+			border: none;
+			flex: 1;
+		}
+		button {
+			background-color: white;
+			border: 0px;
+			box-shadow: none !important;
+			i {
+				color: #198754 !important;
+			}
+		}
+	}
+	ul {
+		list-style-type: none;
+		padding-left: 0px !important;
+		li div {
+			background-color: white;
+			align-items: center;
+			border-radius: 6px !important;
+
+			label {
+				padding:10px;
+				cursor: pointer;
+				min-width:80%;
+				text-align: left !important;
+	
+			}
+			button {
+				background-color: white;
+				border:0px;
+				box-shadow: none !important;
+			}
+			.done{
+				text-decoration: line-through;
+			}
+		}
+		
+	}
+}
